@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Shopping List</h1>
+        <div class="input-group">
+            <input type="text" id="itemInput" placeholder="Enter an item">
+            <input type="number" id="priceInput" placeholder="Enter price" min="0" step="0.01">
+            <button id="addItemBtn">Add Item</button>
+        </div>
+        <ul id="shoppingList"></ul>
+        <button id="clearListBtn">Clear List</button>
+        <div class="total-container">
+            <h3>Total of Purchased Items: $<span id="totalPrice">0.00</span></h3>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
