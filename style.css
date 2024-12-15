@@ -1,4 +1,4 @@
-/* MAIN */
+
 * {
     margin: 0;
     padding: 0;
@@ -45,7 +45,7 @@ body {
 }
 
 #addItemBtn {
-    background: #483285;
+    background: #000000;
     color: rgb(247, 222, 0);
     border: none;
     padding: 10px 15px;
@@ -55,7 +55,12 @@ body {
 }
 
 #addItemBtn:hover {
-    background: #1f61a8;
+    background: #3b3b3b;
+}
+
+#addItemBtn:active {
+    background: white;
+    color: black;
 }
 
 .item-details {
@@ -109,8 +114,8 @@ body {
 
 /* Clear list */
 #clearListBtn {
-    background-color: #9b6262;
-    color: rgb(250, 250, 248);
+    background-color: #000000;
+    color: rgb(247, 222, 0);
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -120,7 +125,12 @@ body {
 }
 
 #clearListBtn:hover {
-    background-color: #434272;
+    background-color: #3b3b3b;
+}
+
+#clearListBtn:active {
+    background-color: white;
+    color: black;
 }
 
 /* Total */
@@ -147,7 +157,6 @@ body {
     background-color: #cc0000;
 }
 
-/* edit items */
 .edit-btn {
     background-color: #ffc107;
     color: white;
